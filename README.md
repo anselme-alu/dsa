@@ -1,6 +1,6 @@
 # Unique Integer Processor Overview
 
-The `unique-int-processor.py` script processes text files containing integers from a specified input directory. It extracts unique integers, sorts them, and writes the sorted integers to a specified output directory. This document provides instructions on setting up the directory structure, configuring the script, running it, and troubleshooting common issues.
+The `distinct-int-handler.py` script processes text files containing integers from a designated input directory. It extracts unique integers, sorts them, and saves the sorted results to a specified output directory. This document outlines the setup of the directory structure, configuration of the script, execution steps, and common troubleshooting tips.
 
 ## Directory Structure
 
@@ -11,12 +11,12 @@ Ensure your project directory is structured as follows:
 └── hw01
 ├── code
 │   └── src
-│       └── unique-int-processor.py
+│       └── distinct-int-handler.py
 ├── sample_inputs
 └── sample_results
 ```
 
-- `unique-int-processor.py`: The Python script that processes integers.
+- `distinct-int-handler.py`: The Python script that processes integers.
 - `sample_inputs/`: Directory where input text files with integers are stored (one integer per line).
 - `sample_results/`: Directory where the processed and sorted results will be saved. This directory will be created automatically if it does not exist.
 
@@ -44,7 +44,7 @@ The `main()` function performs the following tasks:
 ## Setup Instructions
 
 1. Create the Directory Structure:
-   Create the necessary directories and place the `unique-int-processor.py` script in the `src` folder.
+   Create the necessary directories and place the `distinct-int-handler.py` script in the `src` folder.
 
    ```bash
    mkdir -p dsa/hw01/code/src/sample_inputs
@@ -70,7 +70,7 @@ The `main()` function performs the following tasks:
    Execute the script using Python 3:
 
    ```bash
-   python3 unique-int-processor.py
+   python3 distinct-int-handler.py
    ```
 
 ## Troubleshooting Common Issues
@@ -104,9 +104,4 @@ After running the script, the output file in `sample_results/` (e.g., `numbers.t
 3
 5
 8
-```
-
-## License
-
-This script is provided "as-is" without any warranty. You are free to modify and distribute it as needed.
 ```
